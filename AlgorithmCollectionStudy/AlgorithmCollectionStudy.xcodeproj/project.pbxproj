@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C23EB01B22A5075200D3E1AB /* MyCircularQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EB01A22A5075200D3E1AB /* MyCircularQueue.swift */; };
 		C257472D228FF56900E93682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257472C228FF56900E93682 /* AppDelegate.swift */; };
 		C257472F228FF56900E93682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257472E228FF56900E93682 /* ViewController.swift */; };
 		C2574732228FF56900E93682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2574730228FF56900E93682 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C23EB01A22A5075200D3E1AB /* MyCircularQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircularQueue.swift; sourceTree = "<group>"; };
 		C2574729228FF56900E93682 /* AlgorithmCollectionStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmCollectionStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C257472C228FF56900E93682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C257472E228FF56900E93682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				C257472C228FF56900E93682 /* AppDelegate.swift */,
 				C257472E228FF56900E93682 /* ViewController.swift */,
+				C23EB01A22A5075200D3E1AB /* MyCircularQueue.swift */,
 				C2574730228FF56900E93682 /* Main.storyboard */,
 				C2574733228FF56C00E93682 /* Assets.xcassets */,
 				C2574735228FF56C00E93682 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23EB01B22A5075200D3E1AB /* MyCircularQueue.swift in Sources */,
 				C257472F228FF56900E93682 /* ViewController.swift in Sources */,
 				C257472D228FF56900E93682 /* AppDelegate.swift in Sources */,
 			);
