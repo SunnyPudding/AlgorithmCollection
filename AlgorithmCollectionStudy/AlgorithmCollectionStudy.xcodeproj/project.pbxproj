@@ -15,6 +15,9 @@
 		C2574737228FF56C00E93682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2574735228FF56C00E93682 /* LaunchScreen.storyboard */; };
 		C2574742228FF56C00E93682 /* AlgorithmCollectionStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2574741228FF56C00E93682 /* AlgorithmCollectionStudyTests.swift */; };
 		C257474D228FF56C00E93682 /* AlgorithmCollectionStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257474C228FF56C00E93682 /* AlgorithmCollectionStudyUITests.swift */; };
+		C27AD6B622AE3AAD00B6D16C /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27AD6B522AE3AAD00B6D16C /* Solution.swift */; };
+		C27AD6B822AF8CD200B6D16C /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27AD6B722AF8CD200B6D16C /* Fibonacci.swift */; };
+		C27AD6BA22AF914800B6D16C /* GaussAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27AD6B922AF914800B6D16C /* GaussAlgorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		C2574748228FF56C00E93682 /* AlgorithmCollectionStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmCollectionStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C257474C228FF56C00E93682 /* AlgorithmCollectionStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmCollectionStudyUITests.swift; sourceTree = "<group>"; };
 		C257474E228FF56C00E93682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27AD6B522AE3AAD00B6D16C /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		C27AD6B722AF8CD200B6D16C /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		C27AD6B922AF914800B6D16C /* GaussAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaussAlgorithm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,11 @@
 		C257472B228FF56900E93682 /* AlgorithmCollectionStudy */ = {
 			isa = PBXGroup;
 			children = (
+				C27AD6BB22AF91EE00B6D16C /* Recurision */,
 				C257472C228FF56900E93682 /* AppDelegate.swift */,
 				C257472E228FF56900E93682 /* ViewController.swift */,
 				C23EB01A22A5075200D3E1AB /* MyCircularQueue.swift */,
+				C27AD6B522AE3AAD00B6D16C /* Solution.swift */,
 				C2574730228FF56900E93682 /* Main.storyboard */,
 				C2574733228FF56C00E93682 /* Assets.xcassets */,
 				C2574735228FF56C00E93682 /* LaunchScreen.storyboard */,
@@ -126,6 +134,15 @@
 				C257474E228FF56C00E93682 /* Info.plist */,
 			);
 			path = AlgorithmCollectionStudyUITests;
+			sourceTree = "<group>";
+		};
+		C27AD6BB22AF91EE00B6D16C /* Recurision */ = {
+			isa = PBXGroup;
+			children = (
+				C27AD6B722AF8CD200B6D16C /* Fibonacci.swift */,
+				C27AD6B922AF914800B6D16C /* GaussAlgorithm.swift */,
+			);
+			path = Recurision;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27AD6B822AF8CD200B6D16C /* Fibonacci.swift in Sources */,
 				C23EB01B22A5075200D3E1AB /* MyCircularQueue.swift in Sources */,
 				C257472F228FF56900E93682 /* ViewController.swift in Sources */,
+				C27AD6B622AE3AAD00B6D16C /* Solution.swift in Sources */,
 				C257472D228FF56900E93682 /* AppDelegate.swift in Sources */,
+				C27AD6BA22AF914800B6D16C /* GaussAlgorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

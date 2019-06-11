@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         print(array);
         swap(array: &array, p: 1, q: 2);
         print(array);
+        
     }
     //数组中的两个值进行交换
     func swap<T> (array:inout[T],p:Int,q:Int){
@@ -27,8 +28,9 @@ class ViewController: UIViewController {
         assert(q >= 0 && q < array.count)
        (array[p],array[q]) = (array[q],array[p])
     }
-
+    
 }
+
 //用数组实现栈
 class Stack {
     var stack:[AnyObject]
