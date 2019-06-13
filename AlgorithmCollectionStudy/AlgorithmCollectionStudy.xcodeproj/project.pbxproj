@@ -18,6 +18,7 @@
 		C27AD6B622AE3AAD00B6D16C /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27AD6B522AE3AAD00B6D16C /* Solution.swift */; };
 		C27AD6B822AF8CD200B6D16C /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27AD6B722AF8CD200B6D16C /* Fibonacci.swift */; };
 		C27AD6BA22AF914800B6D16C /* GaussAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27AD6B922AF914800B6D16C /* GaussAlgorithm.swift */; };
+		C27AD6BD22B21ACD00B6D16C /* LevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27AD6BC22B21ACD00B6D16C /* LevelOrderTraversal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C27AD6B522AE3AAD00B6D16C /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		C27AD6B722AF8CD200B6D16C /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		C27AD6B922AF914800B6D16C /* GaussAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaussAlgorithm.swift; sourceTree = "<group>"; };
+		C27AD6BC22B21ACD00B6D16C /* LevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrderTraversal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				C257472E228FF56900E93682 /* ViewController.swift */,
 				C23EB01A22A5075200D3E1AB /* MyCircularQueue.swift */,
 				C27AD6B522AE3AAD00B6D16C /* Solution.swift */,
+				C27AD6BC22B21ACD00B6D16C /* LevelOrderTraversal.swift */,
 				C2574730228FF56900E93682 /* Main.storyboard */,
 				C2574733228FF56C00E93682 /* Assets.xcassets */,
 				C2574735228FF56C00E93682 /* LaunchScreen.storyboard */,
@@ -282,6 +285,7 @@
 				C27AD6B622AE3AAD00B6D16C /* Solution.swift in Sources */,
 				C257472D228FF56900E93682 /* AppDelegate.swift in Sources */,
 				C27AD6BA22AF914800B6D16C /* GaussAlgorithm.swift in Sources */,
+				C27AD6BD22B21ACD00B6D16C /* LevelOrderTraversal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
